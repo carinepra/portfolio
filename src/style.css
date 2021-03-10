@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&family=Montserrat:wght@300;500;700&family=Niramit:wght@200;300;400;500;600;700&display=swap');
+:root{
+    font-family: 'Montserrat', sans-serif;
+    --logo-red : #e8081d;
+    --logo-purple : #540582;
+    --logo-marsala : #9a0651;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+}
+ul{
+    display: flex;
+    list-style: none;
+}
+
+li{
+    margin-right: 2rem;
+    padding-left: 0;
+}
+
+.navbar{
+    position:static;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    padding: 0.6rem 2rem 0.6rem 2rem ;
+    display: grid;
+    grid-template-columns: 1fr 3fr 8fr;
+    align-items: center;
+    background-color: #FFF;
+}
+
+.navbar img{
+    margin-top: 1rem;
+    max-height: 4rem;
+    justify-self: center;
+    align-self: center;
+}
+
+.navbar h1{
+    font-family: 'Niramit';
+    text-transform: capitalize;
+    font-size: 2rem;
+    color: var(--logo-red);
+}
+
+
+/*.navbar ul{
+    justify-self: end;
+}*/
+
+.navbar__links{
+    justify-self: end;
+    font-size: 1rem;
+    text-transform: capitalize;
+}
+
+.navbar__links a{
+    color: var(--logo-purple);
+    text-decoration: none;
+}
+
+.navbar__links a:hover{
+    color: var(--logo-marsala);
+}
+
+.color-purple{
+    color: var(--logo-purple) !important;
+}
