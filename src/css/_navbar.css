@@ -1,0 +1,38 @@
+.navbar{
+    position:static;
+    margin: 0;
+    width: 100%;
+    padding: 0.6rem 0;
+    align-items: center;
+    background-color: #FFF;
+    border-bottom: 0.2rem solid var(--logo-red-light);
+}
+.container__navbar{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    align-items: center;
+}
+
+.navbar img{
+    max-height: 4rem;
+    justify-self: center;
+    align-self: center;
+    margin: 0.8rem  0;
+}
+
+.navbar__links{
+    justify-self: center;
+    font-size: 1rem;
+    text-transform: capitalize;
+    font-weight: 600;
+}
+
+.navbar__links a{
+    color: var(--logo-purple);
+    text-decoration: none;
+}
+
+.navbar__links a:hover{
+    color: var(--logo-marsala);
+}
+

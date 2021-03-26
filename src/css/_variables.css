@@ -1,0 +1,7 @@
+:root{
+    --logo-red : #e8081d;
+    --logo-red-light : rgba(232,8,29, 0.4);
+    --logo-purple : #540582;
+    --logo-marsala : #9a0651;
+    --gradient-red-purple : linear-gradient(#540582, #e8081d,#540582)
+}
